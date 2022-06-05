@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "First Tour",
+  "steps": [
+    {
+      "file": "src/main/java/com/sample/hbar/HederaExamples.java",
+      "description": "We read from the environment the account ID and private key. It's important that we don't store these details in a public repo!",
+      "line": 24
+    },
+    {
+      "file": "src/main/java/com/sample/hbar/HederaExamples.java",
+      "description": "We create a client for test net - that way we can test without it costing us real HBar",
+      "line": 28
+    },
+    {
+      "file": "src/main/java/com/sample/hbar/HederaExamples.java",
+      "description": "We create a new account and give it 1000 tinybars.",
+      "line": 36
+    }
+  ]
+}

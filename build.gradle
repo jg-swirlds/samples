@@ -1,0 +1,28 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    // Use Maven Central for resolving dependencies.
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.hedera.hashgraph:sdk:2.15.0'
+    implementation 'io.grpc:grpc-netty-shaded:1.44.0'
+    implementation 'org.slf4j:slf4j-simple:2.0.0-alpha1'
+    implementation group: 'io.github.cdimascio', name: 'java-dotenv', version: '5.2.2'
+
+    // Use JUnit Jupiter for testing.
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
+}
+
+application {
+    // Define the main class for the application.
+    mainClass = 'com.sample.hbar.HederaExamples'
+}
+
+tasks.named('test') {
+    // Use JUnit Platform for unit tests.
+    useJUnitPlatform()
+}
