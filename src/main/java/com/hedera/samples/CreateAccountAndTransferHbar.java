@@ -1,4 +1,4 @@
-package com.sample.hbar;
+package com.hedera.samples;
 
 import com.hedera.hashgraph.sdk.AccountId;
 import com.hedera.hashgraph.sdk.PrecheckStatusException;
@@ -16,7 +16,7 @@ import io.github.cdimascio.dotenv.Dotenv;
 
 import java.util.concurrent.TimeoutException;
 
-public class HederaExamples {
+public class CreateAccountAndTransferHbar {
 
     public static void main(String[] args) throws TimeoutException, PrecheckStatusException, ReceiptStatusException {
 

@@ -19,7 +19,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'com.sample.hbar.HederaExamples'
+    mainClass = 'com.hedera.samples.CreateTopicTutorial'
 }
 
 tasks.named('test') {
